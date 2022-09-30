@@ -1,0 +1,77 @@
+<html>
+<body>
+<h1>Java Script實驗室</h1>
+<h3>自己寫一次更知道<h3>
+<h2>顯示時間</h2>
+<button type="button"
+onclick="document.getElementById('displaytime').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="displaytime">現在的日期與時間會在這裡顯示</p>
+
+<h2>顯示/隱藏字串</h2>
+<p id="hidetest">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('hidetest').style.display='none'">Click Me hide text!</button>
+<button type="button" onclick="document.getElementById('hidetest').style.display='block'">Click Me show hide text!</button>
+
+<h2>列表</h2>
+<ul>
+    <li>無序清單1 </li>
+    <li>無序清單2 </li>
+    <li>無序清單中的有序清單
+        <ol>
+            <li>無序清單中的有序清單</li>
+            <li>無序清單中的有序清單</li>
+            <li>無序清單中的有序清單</li>
+        </ol>
+    </li>
+    <li>無序清單4
+        <dl>
+            <dt>無序清單中的定義清單</dt>
+            <dd>無序清單中的定義說明</dd>
+            <dt>無序清單中的定義清單</dt>
+        </dl>
+    </li>
+</ul>
+<h2>JS計算</h2>
+<p >number</p>
+<p id="counttest">現在的日期與時間會在這裡顯示</p>
+<button type="button" onclick="addFunction()">add</button>
+<button type="button" onclick="minFunction()">min</button>
+<button type="button" onclick="testFunction()">test</button>
+<button type="button" onclick="alertFunction()">alert</button>
+<button type="button" onclick="randomFunction()">random</button>
+
+<!--js程式碼-->
+<script>
+let a;
+a=0;
+document.getElementById("counttest").innerHTML = a;
+function addFunction() {
+    a=a+1;
+  document.getElementById("counttest").innerHTML = a;
+}
+function minFunction() {
+    a=a-1;
+  document.getElementById("counttest").innerHTML = a;
+}
+function testFunction() {
+    var b=2,c=2;
+    a=b+c;
+  document.getElementById("counttest").innerHTML = a;
+}
+function alertFunction() {
+  alert("hi");
+}
+function randomFunction() {
+  var range=10;
+  document.getElementById("counttest").innerHTML = Math.floor(Math.random()*range);
+}
+
+</script>
+<br>
+<a style="color:brown" title="主頁" href="index.html" target="_self">回主頁</a>
+
+</body>
+</html> 

@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <title>冠維的練習網站</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--嵌入CSS-->
+    <style>
+        div.upline  {
+            background-color: green;
+            position: fixed;
+            width: 100%;
+            top: 0ch;
+        }
+
+        div a.upline {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            display: inline-block;
+        }
+
+        ul.upline {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li.upline {
+            display: inline-block;
+        }
+
+        ul li.upline:hover {
+            background: #555;
+        }
+
+        ul li.upline:hover ul {
+            display: block;
+        }
+
+        ul li ul.upline {
+            position: absolute;
+            width: 200px;
+            display: none;
+        }
+
+        ul li ul li.upline {
+            background: #555;
+            display: block;
+        }
+
+        ul li ul li a.upline {
+            display: block !important;
+        }
+
+        ul li ul li.upline:hover {
+            background: #666;
+        }
+
+        .emaillink img {
+            transform: scale(1, 1);
+            transition: all 0.1s ease-out;
+        }
+
+        .emaillink img:hover {
+            transform: scale(1.2, 1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upline">
+        <a class="upline" href="backgroundvideo_firstpage.html"><img src="image/window.png" height="40px"></a><!--用來定位-->
+        <ul class="upline"><!--要新增橫排Link複製這段ul-->
+          <li class="upline">
+            <a href="#" class="upline">Funtion List</a>
+            <ul class="upline">
+              <li class="upline"><a href="test.html" class="upline">JS實驗室</a></li>
+              <li class="upline"><a href="random.html" class="upline">亂數產生</a></li>
+              <li class="upline"><a href="calender.html" class="upline">月曆</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="upline">
+            <li class="upline">
+              <a href="#" class="upline">sec Link</a>
+              <ul class="upline">
+                <li class="upline"><a href="test.html" class="upline">JS實驗室</a></li>
+                <li class="upline"><a href="random.html" class="upline">亂數產生</a></li>
+                <li class="upline"><a href="calender.html" class="upline">月曆</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      <h1>hi</h1>
+    <h1>冠維的練習網站</h1>
+    <h2>use JavaScript & bootstrap</h2>
+    <div class="container">
+        <!--
+        <h2>Hover Rows</h2>
+        <p>The .table-hover class enables a hover state on table rows:</p>   
+    -->
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Funtion Name</th>
+                    <th>Describetion</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="test.html" target="_self">JS實驗室</a></td>
+                    <td>練習使用JS，很亂</td>
+                </tr>
+                <tr>
+                    <td><a href="random.html" target="_self">亂數產生</a></td>
+                    <td>可以產生亂數，可自訂範圍</td>
+                </tr>
+                <tr>
+                    <td><a href="calender.html" target="_self">月曆</a></td>
+                    <td>月曆</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        
+        <a class="container" title="send email to me" href="mailto:60306hi603@gmail.com" target="_self">
+            <div class="emaillink">
+                <img src="image/email.png" width="40px">
+
+            </div>
+
+        </a>
+
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>A</h1>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+#+1657293197
+mkdir public_html
+#+1657293244
+chmod 0711 public_html
+#+1657294379
+chmod 0711 .
+#+1657294400
+chmod 0755 public_html/
+#+1657294404
+exit
